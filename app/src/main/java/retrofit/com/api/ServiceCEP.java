@@ -4,8 +4,8 @@ import retrofit.com.model.CEP;
 import retrofit2.Call;
 import retrofit2.http.GET;
 
-public interface CepService {
+public interface ServiceCEP {
 
     @GET("01001000/json/")
-    Call<CEP> recuperaCEP();
+    Call<CEP> obtemCEP();
 }
